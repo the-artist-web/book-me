@@ -1,0 +1,18 @@
+/*--------------------------------------------*\
+    #HERO
+\*--------------------------------------------*/
+
+.hero .container .hero-content p {
+    overflow: scroll;
+    height: 200px;
+}
+
+.hero .container .hero-content p::-webkit-scrollbar { display: none; }
+
+/*--------------------------------------------*\
+    #BOXS
+\*--------------------------------------------*/
+
+.help { padding-top: 20px; }
+
+.boxs .container .boxs-list .boxs-item .box-text.active { height: 300px; }
