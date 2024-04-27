@@ -8,13 +8,13 @@
    */
 
   /* Primary */
-  --main-color: #84CC16;
+  --main-color: #00bfff;
 
   /* Neutral */
   --second-bg-color: #18181B;
   --background-icon: #27272A;
   --border: #2e2e35;
-  --background-btn: #232B1A;
+  --background-btn: #1a282b;
   --second-color: #c3c3c3;
   --text-color: #ffffff;
   --bg-color: #1D1D20;
@@ -35,13 +35,13 @@
  */
 body.light-mood {
   /* Primary */
-  --main-color: #92e614;
+  --main-color: #00bfff;
 
   /* Neutral */
   --second-bg-color: #ececec;
   --background-icon: #e6e6e6;
   --border: #dddddd;
-  --background-btn: #e6ffcb;
+  --background-btn: #c9f5ff;
   --second-color: #888888;
   --text-color: #000000;
   --bg-color: #ffffff;
@@ -775,6 +775,8 @@ body.load {
   font-size: 1.1rem;
   font-weight: 500;
   color: var(--second-color);
+  text-align: justify;
+  text-align-last: center;
 }
 
 .hero .container .hero-content .hero-btns {
@@ -841,6 +843,7 @@ body.load {
 }
 
 .boxs .container .boxs-list {
+  direction: ltr;
   display: grid;
   gap: 20px;
 }
@@ -858,15 +861,19 @@ body.load {
 }
 
 .boxs .container .boxs-list .boxs-item .boxs-top {
+  direction: rtl;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 55px;
+  height: auto;
+  gap: 20px;
 }
 
 .boxs .container .boxs-list .boxs-item .boxs-top h3 {
+  text-align: left;
   font-size: 1.2rem;
   font-weight: 600;
+  direction: ltr;
 }
 
 .boxs .container .boxs-list .boxs-item .boxs-top .boxs-icon {
@@ -886,6 +893,7 @@ body.load {
 }
 
 .boxs .container .boxs-list .boxs-item .box-text {
+  direction: rtl;
   text-align: justify;
   visibility: hidden;
   font-size: 1.1rem;
@@ -1048,6 +1056,7 @@ body.load {
   }
 
   .hero .container .hero-content p {
+    text-align-last: right;
     font-weight: 600;
   }
 
