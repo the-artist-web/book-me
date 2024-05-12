@@ -4308,11 +4308,33 @@
                                     هنا ال window.location بحدد بيها الصفحه الي هروح ليها بعد ما اكتب في البحث او دوست علي زرار ال `./  =${ .value }` بينكتب فيها اسم الصفحه الي هروح ليها مع ال value الي انكتب يعني لو قيمة المدخلة في حقل البحث "pizza"، فسيتم توجيه المستخدم إلى ./recipes.html=pizza.
                                 </p>
                             </li>
+                            
+                            <li class="boxs-item" data-boxs-item>
+                                <div class="boxs-top">
+                                    <div class="boxs-icon">
+                                        <button class="lock-open" data-lock-open>
+                                            <i class="fa-solid fa-lock-open"></i>
+                                        </button>
+                                        
+                                        <button class="lock" data-lock>
+                                            <i class="fa-solid fa-lock"></i>
+                                        </button>
+                                    </div>
+
+                                    <h3 data-name-box>
+                                        input-search.addEventListener("keyup", e => { if (e.key === "Enter") submit-search.click(); });
+                                    </h3>
+                                </div>
+
+                                <p class="box-text" data-box-text>
+                                    هذا الكود يُتيح للمستخدم الضغط على مفتاح "Enter" على لوحة المفاتيح لتنفيذ عملية البحث، بدلاً من الحاجة إلى النقر على زر البحث بالفأرة.
+                                </p>
+                            </li>
                         </ul>
                     </div>
                 </section>
             </article>
-        </main>
+        </main> 
 
         <!-- #FOOTER -->
         <footer class="footer" data-footer>
