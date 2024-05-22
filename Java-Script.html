@@ -4466,6 +4466,72 @@
                                     دي بتجيب عنصر html بنفسه
                                 </p>
                             </li>
+                            
+                            <li class="boxs-item" data-boxs-item>
+                                <div class="boxs-top">
+                                    <div class="boxs-icon">
+                                        <button class="lock-open" data-lock-open>
+                                            <i class="fa-solid fa-lock-open"></i>
+                                        </button>
+                                        
+                                        <button class="lock" data-lock>
+                                            <i class="fa-solid fa-lock"></i>
+                                        </button>
+                                    </div>
+
+                                    <h3 data-name-box>
+                                        const urlParams = new URLSearchParams(window.location.search);
+                                    </h3>
+                                </div>
+
+                                <p class="box-text" data-box-text>
+                                    دي بتجيب ال value الي في ال url بتاع الموقع
+                                </p>
+                            </li>
+                            
+                            <li class="boxs-item" data-boxs-item>
+                                <div class="boxs-top">
+                                    <div class="boxs-icon">
+                                        <button class="lock-open" data-lock-open>
+                                            <i class="fa-solid fa-lock-open"></i>
+                                        </button>
+                                        
+                                        <button class="lock" data-lock>
+                                            <i class="fa-solid fa-lock"></i>
+                                        </button>
+                                    </div>
+
+                                    <h3 data-name-box>
+                                        const query = urlParams.get('query') ? decodeURIComponent(urlParams.get('query')).toLowerCase() : '';
+                                    </h3>
+                                </div>
+
+                                <p class="box-text" data-box-text>
+                                    دي بتكمل تنظيم ال url بتاع الموقع
+                                </p>
+                            </li>
+                            
+                            <li class="boxs-item" data-boxs-item>
+                                <div class="boxs-top">
+                                    <div class="boxs-icon">
+                                        <button class="lock-open" data-lock-open>
+                                            <i class="fa-solid fa-lock-open"></i>
+                                        </button>
+                                        
+                                        <button class="lock" data-lock>
+                                            <i class="fa-solid fa-lock"></i>
+                                        </button>
+                                    </div>
+
+                                    <h3 data-name-box>
+                                        const filteredSurahs = data.display.filter(display => display.title.toLowerCase().includes(query));
+                                    </h3>
+                                </div>
+
+                                <p class="box-text" data-box-text>
+                                    دي بتبحث في url عن value بتاع ملف json علشان يعرضها
+                                </p>
+                            </li>
                         </ul>
                     </div>
                 </section>
