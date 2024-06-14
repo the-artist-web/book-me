@@ -612,6 +612,207 @@
                                     هنا ال v-show="" عامله زي ال v-if بس الفرق بينهم ان ال if بتشيل العنصر كلو لو الشرط متحققش انا ال v-show بتخفي الشرط الي هوا name بس و بتحلي العنصر عادي
                                 </p>
                             </li>
+
+                            <li class="boxs-item" data-boxs-item>
+                                <div class="boxs-top">
+                                    <div class="boxs-icon">
+                                        <button class="lock-open" data-lock-open>
+                                            <i class="fa-solid fa-lock-open"></i>
+                                        </button>
+                                        
+                                        <button class="lock" data-lock>
+                                            <i class="fa-solid fa-lock"></i>
+                                        </button>
+                                    </div>
+
+                                    <h3 data-name-box>
+                                        v-bind:
+                                    </h3>
+                                </div>
+
+                                <p class="box-text" data-box-text>
+                                    تستخدم في وضع لينك من ملف vue.js الي صفحه html مثل هكذا v-bind:href = ""
+                                </p>
+                            </li>
+
+                            <li class="boxs-item" data-boxs-item>
+                                <div class="boxs-top">
+                                    <div class="boxs-icon">
+                                        <button class="lock-open" data-lock-open>
+                                            <i class="fa-solid fa-lock-open"></i>
+                                        </button>
+                                        
+                                        <button class="lock" data-lock>
+                                            <i class="fa-solid fa-lock"></i>
+                                        </button>
+                                    </div>
+
+                                    <h3 data-name-box>
+                                        @click=""
+                                    </h3>
+                                </div>
+
+                                <p class="box-text" data-box-text>
+                                    نفس ال onclick الي في java script
+                                </p>
+                            </li>
+
+                            <li class="boxs-item" data-boxs-item>
+                                <div class="boxs-top">
+                                    <div class="boxs-icon">
+                                        <button class="lock-open" data-lock-open>
+                                            <i class="fa-solid fa-lock-open"></i>
+                                        </button>
+                                        
+                                        <button class="lock" data-lock>
+                                            <i class="fa-solid fa-lock"></i>
+                                        </button>
+                                    </div>
+
+                                    <h3 data-name-box>
+                                        @click.right=""
+                                    </h3>
+                                </div>
+
+                                <p class="box-text" data-box-text>
+                                    هنا الشرط مش هيتحقق الا اما ادوس علي الزرار الي علي اليمين في الماوس
+                                </p>
+                            </li>
+
+                            <li class="boxs-item" data-boxs-item>
+                                <div class="boxs-top">
+                                    <div class="boxs-icon">
+                                        <button class="lock-open" data-lock-open>
+                                            <i class="fa-solid fa-lock-open"></i>
+                                        </button>
+                                        
+                                        <button class="lock" data-lock>
+                                            <i class="fa-solid fa-lock"></i>
+                                        </button>
+                                    </div>
+
+                                    <h3 data-name-box>
+                                        v-model=""
+                                    </h3>
+                                </div>
+
+                                <p class="box-text" data-box-text>
+                                    تستخدم في input و هيا مثل ال value التي في input و لكن ال v-model اذا كتب بيها عنصر من ملف vue.js في نفس عنصر الاب سيتغير
+                                </p>
+                            </li>
+
+                            <li class="boxs-item" data-boxs-item>
+                                <div class="boxs-top">
+                                    <div class="boxs-icon">
+                                        <button class="lock-open" data-lock-open>
+                                            <i class="fa-solid fa-lock-open"></i>
+                                        </button>
+                                        
+                                        <button class="lock" data-lock>
+                                            <i class="fa-solid fa-lock"></i>
+                                        </button>
+                                    </div>
+
+                                    <h3 data-name-box>
+                                        Vue.component("app-count", {  data: function() { return {  } }, template: ""  });
+                                    </h3>
+                                </div>
+
+                                <p class="box-text" data-box-text>
+                                    هنا ال component بتستخدم في عمل عناصر جاهزه بتتكر زي اللايك ز الي مش بيتكرر الشرح: ال app-count ده اسم ال component اما اجي استعيه في ملف html بستدعيه زي كدا &lt;app-count>&lt;/app-count> و بيكون فاضي و ال data هنا لازم تنكتب كا function علشان كل عنصر يتصرف لوحده و ال return بترجع لشرط الي جواها وال template بكون بيها العنصر بتاع html الي هيتعمل عليه الشرط
+                                </p>
+                            </li>
+
+                            <li class="boxs-item" data-boxs-item>
+                                <div class="boxs-top">
+                                    <div class="boxs-icon">
+                                        <button class="lock-open" data-lock-open>
+                                            <i class="fa-solid fa-lock-open"></i>
+                                        </button>
+                                        
+                                        <button class="lock" data-lock>
+                                            <i class="fa-solid fa-lock"></i>
+                                        </button>
+                                    </div>
+
+                                    <h3 data-name-box>
+                                        props: [""]
+                                    </h3>
+                                </div>
+
+                                <p class="box-text" data-box-text>
+                                    اولا اي عنصر موجود في new vue مش بيبقا منشاف في ال component فا علشان اقدر استخدم العناصر الي في new vue جوا component لا استخدم props بكتب فيها العنصر الي عاوز اجيبه من new vue و استخدمهه عادي << بس >> مش هيشتغل الا اما استدعيه بي v-bind جوا اسم ال component في صفحه html زي كدا &lt;app-count v-pind:url="url">&lt;/app-count> url ده مثال ليس الا
+                                </p>
+                            </li>
+
+                            <li class="boxs-item" data-boxs-item>
+                                <div class="boxs-top">
+                                    <div class="boxs-icon">
+                                        <button class="lock-open" data-lock-open>
+                                            <i class="fa-solid fa-lock-open"></i>
+                                        </button>
+                                        
+                                        <button class="lock" data-lock>
+                                            <i class="fa-solid fa-lock"></i>
+                                        </button>
+                                    </div>
+
+                                    <h3 data-name-box>
+                                        component: { "app-count": appCount }
+                                    </h3>
+                                </div>
+
+                                <p class="box-text" data-box-text>
+                                    دي طريقه استدعاء component داخل ملف vue.js في حاله اني عامل component داخل متغير
+                                </p>
+                            </li>
+
+                            <li class="boxs-item" data-boxs-item>
+                                <div class="boxs-top">
+                                    <div class="boxs-icon">
+                                        <button class="lock-open" data-lock-open>
+                                            <i class="fa-solid fa-lock-open"></i>
+                                        </button>
+                                        
+                                        <button class="lock" data-lock>
+                                            <i class="fa-solid fa-lock"></i>
+                                        </button>
+                                    </div>
+
+                                    <h3 data-name-box>
+                                        computed: {}
+                                    </h3>
+                                </div>
+
+                                <p class="box-text" data-box-text>
+                                    انها مثل ال method في vue.js لكن الفرق بين الخصائص المحسوبة (computed) والوظائف العادية (methods):
+                                    الخصائص المحسوبة: يتم تخزين قيمتها مؤقتًا وتُعاد حسابها فقط عندما تتغير التبعيات. هذا يجعلها أكثر كفاءة عندما تعتمد على عمليات حسابية مكلفة.
+                                    الوظائف العادية: تُنفذ في كل مرة يتم استدعاؤها ولا يتم تخزين نتيجتها مؤقتًا. هذه مناسبة عندما تحتاج إلى إعادة حساب القيمة في كل مرة بغض النظر عن التغييرات في البيانات.
+                                    + حاجه كمان ال computed بتستدعي غير ال methods هيا بتستدعي من غير () دي في حاله انها function
+                                </p>
+                            </li>
+
+                            <li class="boxs-item" data-boxs-item>
+                                <div class="boxs-top">
+                                    <div class="boxs-icon">
+                                        <button class="lock-open" data-lock-open>
+                                            <i class="fa-solid fa-lock-open"></i>
+                                        </button>
+                                        
+                                        <button class="lock" data-lock>
+                                            <i class="fa-solid fa-lock"></i>
+                                        </button>
+                                    </div>
+
+                                    <h3 data-name-box>
+                                        
+                                    </h3>
+                                </div>
+
+                                <p class="box-text" data-box-text>
+                                    
+                                </p>
+                            </li>
                         </ul>
                     </div>
                 </section>
