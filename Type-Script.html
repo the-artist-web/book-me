@@ -876,6 +876,44 @@
                                     "skipLibCheck": true: يخبر TypeScript بتجاهل فحص المكتبات الخارجية (libraries) أثناء عملية الترجمة، مما يمكن أن يؤدي إلى زيادة سرعة الترجمة لمشاريع كبيرة.
                                 </p>
                             </li>
+                            
+                            <li class="boxs-item" data-boxs-item>
+                                <div class="boxs-top">
+                                    <div class="boxs-icon">
+                                        <button class="lock-open" data-lock-open>
+                                            <i class="fa-solid fa-lock-open"></i>
+                                        </button>
+                                        
+                                        <button class="lock" data-lock>
+                                            <i class="fa-solid fa-lock"></i>
+                                        </button>
+                                    </div>
+
+                                    <h3 data-name-box>
+                                        كل الملفات التي ستحتاجها في اعدادات type script
+                                    </h3>
+                                </div>
+
+                                <p class="box-text" data-box-text>
+                                    {<br>
+                                        "compilerOptions": {<br>
+                                          "target": "ES6",<br>
+                                          "module": "commonjs",<br>
+                                          "lib": ["es2015", "dom"],<br>
+                                          "outDir": "./dist",<br>
+                                          "rootDir": "./src",<br>
+                                          "strict": true,<br>
+                                          "esModuleInterop": true,<br>
+                                          "sourceMap": true,<br>
+                                          "declaration": true,<br>
+                                          "removeComments": true,<br>
+                                          "noImplicitAny": true<br>
+                                        },<br>
+                                        "include": ["src/**/*"],<br>
+                                        "exclude": ["node_modules", "dist"]<br>
+                                    }
+                                </p>
+                            </li>
                         </ul>
                     </div>
                 </section>
